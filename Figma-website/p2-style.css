@@ -1,0 +1,157 @@
+.section1 {
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s1-left {
+    height: 385px;
+    width: 618px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.s1-left h1{
+    height: 216px;
+    width: 618px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+}
+.s1-left p{
+    height: 59px;
+    width: 510px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.s1-button{
+    height: 54px;
+    width: 171px;
+    border-radius: 27px;
+    background: #F58A07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1-button a{
+    font-weight: 600;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.s1-right{
+    height: 650px;
+    width: 616px;
+    background: url(./images/services-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.s1-imgline{
+    height: 650px;
+    width: 180px;
+    background: url(./images/services-1.png), #F58A07;
+    background-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
+}
+.section2{
+    height: 3262px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.s2-box{
+    height: 550px;
+    width: 1328px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s2-box:nth-child(2n){
+    flex-direction: row-reverse;
+}
+.box-left{
+    height: 294px;
+    width: 584px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.box-left:nth-child(2n){
+    height: 230px;
+    width: 580px;
+}
+.box-left h2{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+.box-left p{
+    width: 583px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.box-left ul{
+    margin: 0;
+    padding: 0;
+}
+.box-left li{
+    list-style: inside;
+    font-weight: 500;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+.box-right{
+    height: 550px;
+    width: 668px;
+    border-radius: 20px;
+}
+/* .orange-box1{
+    height: 97px;
+    width: 95px;
+    border-radius: 20px;
+    background: url(./images/services-2.png), #F58A07;
+    background-position: left;
+    background-blend-mode: multiply;
+} */
+.s2-1st{
+    background: url(./images/services-2.png), url(./images/Orange.png);
+    background-repeat: no-repeat;
+    background-position: right, left;
+    background-blend-mode: multiply;
+}
+.s2-2nd{
+    background: url(./images/services-3.png), url(./images/Orange.png);
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-blend-mode: multiply;
+}
+.s2-3th{
+    background: url(./images/services-4.png), url(./images/Orange.png);
+    background-repeat: no-repeat;
+    background-position: right, left;
+    background-blend-mode: multiply;
+}
+.s2-4th{
+    background: url(./images/services-5.png), url(./images/Orange.png);
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-blend-mode: multiply;
+}
+.s2-5th{
+    background: url(./images/services-6.png), url(./images/Orange.png);
+    background-repeat: no-repeat;
+    background-position: right, left;
+    background-blend-mode: multiply;
+}

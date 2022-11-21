@@ -1,0 +1,10 @@
+html {
+    font-size: 10px;
+}
+h2 {
+    font-size: 4rem;
+    background-color: aqua;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+}

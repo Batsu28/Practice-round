@@ -1,0 +1,127 @@
+
+/* Page3 Careers */
+/* Section 1 */
+
+.p3-s1 {
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p3-s1-left{
+    height: 480px;
+    width: 618px;
+    border-radius: 27px;
+    display: flex;
+    flex-direction: column;
+}
+.p3-s1-left h1{
+    margin-top: 0%;
+    height: 288px;
+    width: 618px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+}
+.p3-s1-left p{
+    height: 90px;
+    width: 557px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.p3-s1-button{
+    width: 180px;
+    height: 54px;
+    border-radius: 27px;
+    background: #F58A07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p3-s1-button a{
+    color: #FFFFFF;
+}
+.p3-s1-right{
+    position: relative;
+    height: 650px;
+    width: 616px;
+    border-radius: 20px;
+}
+.p3-img{
+    position: absolute;
+}
+.p3-img-line{
+    position:absolute;
+    height: 650px;
+    width: 180px;
+    border-radius: 20px 0 0 20px;
+    background: url(./images/Image.png), #F58A07;
+    background-blend-mode: Multiply;
+}
+.p3-s2{
+    height: 522px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.p3-s2 h2{
+    height: 56px;
+    width: 676px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color:  #0D1317;
+}
+.p3-s2-bottom{
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+.p3-box{
+    box-sizing: border-box;
+    padding-left: 30px;
+    height: 181px;
+    width: 400px;
+    border-radius: 20px;
+    background: #C1E4FF4D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start ;
+}
+.p3-box h3{
+    margin: 0;
+    height: 30px;
+    width: 250px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+.p3-box p{
+    height: 28px;
+    width: 190px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #394149;
+    opacity: 0.6;
+}
+.p3-box a{
+    height: 19px;
+    width: 95px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #F58A07;
+}
+.blank-box{
+    height: 181px;
+    width: 400px;
+}

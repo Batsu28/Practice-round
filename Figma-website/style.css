@@ -1,0 +1,334 @@
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    max-width: 1280px;
+    margin:auto;
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+header{
+    margin: 20px auto;
+}
+.inner-head{
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 28px;
+    width: 125px;
+    color: #063255;
+}
+.header-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-list{
+    height: 24px;
+    width: 437px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-button{
+    height: 52px;
+    width: 173px;
+    border-radius: 31px;
+    background: #F58A071A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-button a{
+    color: #F58A07;
+}
+.section6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s6-left{
+    height: 346px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.s6-left h2{
+    height: 112px;
+    width: 550px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+.s6-left p{
+    height: 90px;
+    width: 550px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.s6-bot{
+    height: 80px;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s6-bot img{
+    height: 80px;
+    width: 80px;
+}
+.s6-bottext {
+    width: 160px;
+}
+.s6-bottext h3{
+    margin: 0;
+    height: 41px;
+    width: 145px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 41px;
+    color: #063255;
+}
+.s6-bottext p{
+    margin: 0;
+    height: 31px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    color: #F58A07;
+}
+.s6-right{
+    position: relative;
+    height: 501px;
+    width: 620px;
+    border-radius: 20px;
+    background: url(./images/video-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.playvid{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+.s6-right a{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.playicon{
+    width: 51px;
+    height: 51px;
+    border-radius:100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-section{
+    height: 819px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.last-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last-box{
+    max-width: 400px;
+    min-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #EDF7FF;
+}
+.last-box h2{
+    height: 72px;
+    width: 336px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+}
+.last-box p{
+    height: 84px;
+    width: 336px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.last-box a{
+    margin-bottom: 20px;
+    height: 17px;
+    width: 336px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    color: #F58A07;
+}
+.last-box a::after{
+    content: ' \2192';
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 470px;
+    background: #063255;
+}
+.footer-left{
+    align-self: flex-end;
+    height: 144px;
+    width: 53px;
+    border-radius:0 20px 0 0;
+    background: #F58A07;
+}
+.footer-right{
+    align-self: center;
+    height: 287px;
+    width: 53px;
+    border-radius: 20px 0 0 20px;
+    background: #F58A07;
+}
+.footer-mid{
+    align-self: center;
+    height: 303px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+.footer-top{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-box1 h2{
+    height: 88px;
+    width: 351px;    
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+}
+.social-icon{
+    height: 20px;
+    width: 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-box2, .footer-box3 h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.footer-box2, .footer-box3 li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.footer-top ul{
+    padding: 0px;
+}
+.footer-box4{
+    height: 175px;
+    width: 342px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.box4-first{
+    height: 27px;
+    width: 141px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.box4-second{
+    padding-left: 20px;
+    height: 54px;
+    width: 342px;
+    border-radius: 31px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+}
+.box4-second p{
+    font-family: Inter; 
+    font-weight: 500;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+.box4-last{
+    height: 54px;
+    width: 156px;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F58A07;
+}
+.box4-last p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.footer-bot{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bot p{
+    font-weight: 500;
+    line-height: 24px;
+}
+.footer-bot-r{
+    height: 24px;
+    width: 298px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bot-r a{
+    font-weight: 500;
+    line-height: 24px;
+    color:#FFFFFF
+}

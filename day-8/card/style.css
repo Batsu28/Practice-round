@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(91, 54, 120);
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+.card {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 45vw;
+    height: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card img {
+    width: 45%;
+}
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 h2 {
+    width: 45%;
+    font-size: 50px;
+    color: green;
+}
+.readmore{
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+.readmore:hover {
+    background-color: gray;
+}
